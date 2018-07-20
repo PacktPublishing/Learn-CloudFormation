@@ -1,0 +1,92 @@
+{
+    "AWSTemplateFormatVersion": "2010-09-09",
+    "Description": "Amazon EC2 instance with Amazon Linux AMI.",
+    "Parameters": {      
+      "InstanceType": {
+        "Description": "EC2 instance type",
+        "Type": "String",
+        "Default": "t1.micro",
+        "AllowedValues": [
+          "t1.micro",
+          "t2.nano",
+          "t2.micro",
+          "t2.small"
+        ],
+        "ConstraintDescription": "must be a valid EC2 instance type."
+      }    
+    },
+    "Mappings": {
+      "AWSInstanceType2Arch": {
+        "t1.micro": {
+          "Arch": "PV64"
+        },
+        "t2.nano": {
+          "Arch": "HVM64"
+        },
+        "t2.micro": {
+          "Arch": "HVM64"
+        },
+        "t2.small": {
+          "Arch": "HVM64"
+        }
+      },
+      "AWSInstanceType2NATArch": {
+        "t1.micro": {
+          "Arch": "NATPV64"
+        },
+        "t2.nano": {
+          "Arch": "NATHVM64"
+        },
+        "t2.micro": {
+          "Arch": "NATHVM64"
+        },
+        "t2.small": {
+          "Arch": "NATHVM64"
+        }
+      },
+      "AWSRegionArch2AMI": {
+        "us-east-1": {
+          "PV64": "ami-2a69aa47",
+          "HVM64": "ami-6869aa05",
+          "HVMG2": "ami-61e27177"
+        },
+        "us-west-2": {
+          "PV64": "ami-7f77b31f",
+          "HVM64": "ami-7172b611",
+          "HVMG2": "ami-60aa3700"
+        },
+        "us-west-1": {
+          "PV64": "ami-a2490dc2",
+          "HVM64": "ami-31490d51",
+          "HVMG2": "ami-4b694d2b"
+        }
+      }
+    },
+    "Resources": {
+      "EC2Instance": {
+        "Type": "AWS::EC2::Instance",
+        "Properties": {
+          "InstanceType": {
+            "Ref": "InstanceType"
+          },                    
+          "ImageId": {
+            "Fn::FindInMap": [
+              "AWSRegionArch2AMI",
+              {
+                "Ref": "AWS::Region"
+              },
+              {
+                "Fn::FindInMap": [
+                  "AWSInstanceType2Arch",
+                  {
+                    "Ref": "InstanceType"
+                  },
+                  "Arch"
+                ]
+              }
+            ]
+          }
+        }
+      }
+    }  
+  }
