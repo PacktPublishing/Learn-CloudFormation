@@ -1,0 +1,10 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Description: Amazon S3 with custom Bucket name
+Resources:
+  MySimpleBucket:
+    Type: AWS::S3::Bucket    
+Outputs:
+  BucketName:
+    Value:
+      Ref: MySimpleBucket
+
