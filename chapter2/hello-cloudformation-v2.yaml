@@ -1,0 +1,5 @@
+Resources:
+  MySimpleBucket2:
+    Type: AWS::S3::Bucket
+    Properties:
+      AccessControl: PublicRead

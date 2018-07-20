@@ -1,0 +1,15 @@
+{
+    "id": 1,
+    "name": "michael",
+    "address":[
+        {
+            "street": "abc street",
+            "city": "new york"
+        },
+        {
+            "street": "vue street",
+            "city": "hoston"
+        }
+    ],
+    "country": "us"
+}
