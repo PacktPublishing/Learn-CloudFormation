@@ -1,7 +1,0 @@
-{
-    "Resources" : {
-        "MySimpleBucket" : {
-            "Type" : "AWS::S3::Bucket"
-        }
-    }
-}
