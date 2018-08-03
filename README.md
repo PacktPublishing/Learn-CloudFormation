@@ -39,7 +39,7 @@ As the practical examples involve the use of AWS, an AWS account is required.
 With the following software and hardware list you can run all code files present in the book (Chapter 1-7).
 ### Software and Hardware List
 | Chapter | Software required | OS required |
-| -------- | ------------------------------------ | ----------------------------------- |
+| 1-7 | Any text editor, Visual Studio Code | Active Amazon AWS account, Internet access |
 
 
 We also provide a PDF file that has color images of the screenshots/diagrams used in this book. [Click here to download it]().
