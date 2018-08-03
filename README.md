@@ -44,7 +44,13 @@ With the following software and hardware list you can run all code files present
 
 We also provide a PDF file that has color images of the screenshots/diagrams used in this book. [Click here to download it]().
 
-### Related products
+### Related products <Paste books from the Other books you may enjoy section>
+* AWS Automation Cookbook [[Packt]](https://www.packtpub.com/virtualization-and-cloud/aws-automation-cookbook?utm_source=github&utm_medium=repository&utm_campaign=978178839425) [[Amazon]](https://www.amazon.com/dp/1788394925)
+
+* Effective DevOps with AWS [[Packt]](https://www.packtpub.com/application-development/effective-devops-aws?utm_source=github&utm_medium=repository&utm_campaign=9781786466815) [[Amazon]](https://www.amazon.com/dp/1786466813)
 ## Get to Know the Author
 **Agus Kurniawan**
 is a lecturer, researcher, IT consultant, and author. He has more than 16 years of experience in various software and hardware development projects for various companies. He also has been delivering materials in training and workshops, and delivering technical writing. He has been awarded the Microsoft Most Valuable Professional (MVP) award for 13 years in a row. He is currently doing some research related to software engineering, machine learning, networking and security systems at the Faculty of Computer Science, University of Indonesia, Indonesia.
+
+### Suggestions and Feedback
+[Click here](https://docs.google.com/forms/d/e/1FAIpQLSdy7dATC6QmEL81FIUuymZ0Wy9vH1jHkvpY57OiMeKGqib_Ow/viewform) if you have any feedback or suggestions.
