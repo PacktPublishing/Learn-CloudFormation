@@ -53,7 +53,7 @@ We also provide a PDF file that has color images of the screenshots/diagrams use
 **Agus Kurniawan**
 is a lecturer, researcher, IT consultant, and author. He has more than 16 years of experience in various software and hardware development projects for various companies. He also has been delivering materials in training and workshops, and delivering technical writing. He has been awarded the Microsoft Most Valuable Professional (MVP) award for 13 years in a row. He is currently doing some research related to software engineering, machine learning, networking and security systems at the Faculty of Computer Science, University of Indonesia, Indonesia.
 
-# Other books by the author
+# Other book by the author
 * [Learning AWS IoT](https://www.packtpub.com/virtualization-and-cloud/learning-aws-iot?utm_source=github&utm_medium=repository&utm_campaign=9781788396110)
 
 ### Suggestions and Feedback
