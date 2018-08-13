@@ -1,6 +1,6 @@
 # Learn CloudFormation
 
-<a href="https://www.packtpub.com/virtualization-and-cloud/learn-cloudformation?utm_source=github&utm_medium=repository&utm_campaign=9781789134322"><img src="https://www.packtpub.com/sites/default/files/B10535_MockupCovernew.png" alt="Learn CloudFormation" height="256px" align="right"></a>
+<a href="https://www.packtpub.com/virtualization-and-cloud/learn-cloudformation?utm_source=github&utm_medium=repository&utm_campaign=9781789134322"><img src="https://dz13w8afd47il.cloudfront.net/sites/default/files/imagecache/ppv4_main_book_cover/B10535.png" alt="Learn CloudFormation" height="256px" align="right"></a>
 
 This is the code repository for [Learn CloudFormation](https://www.packtpub.com/virtualization-and-cloud/learn-cloudformation?utm_source=github&utm_medium=repository&utm_campaign=9781789134322), published by Packt.
 
